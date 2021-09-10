@@ -21,6 +21,7 @@ class CreateTripsTable extends Migration
             $table->text('abstract');
             $table->string('famousPlace', 255);
             $table->string('trattamento', 255);
+            $table->string('timingTrip', 100);
             $table->timestamps();
         });
     }
